@@ -4,9 +4,9 @@
   "description": "CMS Magazine Frontend",
   "source": "public/index.html",
   "scripts": {
-    "start": "dotenv -- parcel public/index.html --open",
-    "dev": "dotenv -- parcel public/index.html --open",
-    "build": "dotenv -- parcel build public/index.html",
+    "start": "parcel public/index.html --open",
+    "dev": "parcel public/index.html --open",
+    "build": "parcel build public/index.html",
     "clean": "rimraf .parcel-cache dist node_modules"
   },
   "dependencies": {
