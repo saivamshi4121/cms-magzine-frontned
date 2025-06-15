@@ -1,0 +1,25 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "CMS Magazine Frontend",
+  "source": "public/index.html",
+  "scripts": {
+    "start": "dotenv -- parcel public/index.html --open",
+    "dev": "dotenv -- parcel public/index.html --open",
+    "build": "dotenv -- parcel build public/index.html",
+    "clean": "rimraf .parcel-cache dist node_modules"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "process": "^0.11.10",
+    "rimraf": "^5.0.5"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
